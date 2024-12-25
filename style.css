@@ -10,38 +10,46 @@
 }
 
 @media (max-width: 768px) {
-    .containerP {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center;
-        justify-content: space-around;
-        margin: 30px;
-        padding: 25px;
-    }
-    
+  .containerP {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: space-around;
+      margin: 20px auto; 
+      padding: 15px; 
+  }
+
+  .card {
+      width: 90%; 
+      max-width: 350px; 
+      margin: 15px 0; 
+  }
 }
 
 .containerC {
-    max-width: 65%;
-    margin: auto; 
-  }
+  max-width: 65%;
+  margin: auto;
+}
 
 .carousel-inner img {
-    height: 650px; 
-    object-fit: cover; 
+  height: 650px; 
+  object-fit: cover; 
 }
 
 @media (max-width: 768px) {
-    .containerC {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center;
-    }
-    
+  .containerC {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .carousel-inner img {
+      height: auto; 
+      max-height: 400px;
+      object-fit: contain;
+  }
 }
 
 
