@@ -1,1 +1,1 @@
-https://yusufbsahin.github.io/Capstone-Project-2---Personel-Site/
+https://yusufbsahin.github.io/yusufbsahin/
